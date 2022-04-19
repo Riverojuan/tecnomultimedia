@@ -1,0 +1,56 @@
+//Bugiolachi, jose
+//tp0 Figuras
+//Rivero Juan (91332/9)
+
+void setup(){
+size(500, 500);
+text("hola c:", 179, 40);
+
+}
+void draw(){
+println(mouseX,mouseY);
+background(55, 89, 123);
+
+//cuerpo
+fill(232, 138, 141);
+triangle(127, 209, 175, 311, 66, 400);
+triangle(220, 212, 175, 311, 270, 400);
+triangle(127, 209, 220, 212, 175, 311);
+
+fill(232, 138, 141);
+quad(152, 127, 194, 127, 219, 211, 129, 211);
+
+//pastillas
+fill(90, 63, 64);
+rect(152, 230, 45, 25, 1, 2, 1, 2);
+rect(152, 190, 45, 25, 1, 2, 1, 2);
+rect(152, 270, 45, 5, 1, 2, 1, 2);
+
+//perillas
+fill(255,255,255);
+circle(208, 287, 15);
+circle(215, 303, 15);
+
+//gancho
+fill(255,255,255);
+ellipse(175, 318, 20, 10);
+
+//mastil
+fill(44, 27, 6);
+rect(153, 1, 40, 170, 10, 10, 180, 150);
+
+//caja
+fill(5, 5 , 5);
+square(319, 196, 120);
+
+//cab
+fill(55);
+square(330, 220, 90);
+
+//perillas
+circle(345, 210, 15);
+circle(365, 210, 15);
+circle(385, 210, 15);
+
+
+}
